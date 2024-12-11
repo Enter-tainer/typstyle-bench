@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1733918437070,
+  "lastUpdate": 1733931760293,
   "repoUrl": "https://github.com/Enter-tainer/typstyle",
   "entries": {
     "Rust Benchmark": [
@@ -2159,6 +2159,126 @@ window.BENCHMARK_DATA = {
             "name": "pretty-packages/touying/utils",
             "value": 1378511,
             "range": "± 7704",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "quadnucyard@gmail.com",
+            "name": "QuadnucYard",
+            "username": "QuadnucYard"
+          },
+          "committer": {
+            "email": "mgt@oi-wiki.org",
+            "name": "Wenzhuo Liu",
+            "username": "Enter-tainer"
+          },
+          "distinct": true,
+          "id": "8ccc4ddf8a8dc00e1704a5da8b9a3cd9a95af514",
+          "message": "feat: turn side spaces into linebreaks in multiline markup",
+          "timestamp": "2024-12-11T23:38:08+08:00",
+          "tree_id": "5d04d5c769f2bfa7baa3b2dcb7991e482fcf5a0c",
+          "url": "https://github.com/Enter-tainer/typstyle/commit/8ccc4ddf8a8dc00e1704a5da8b9a3cd9a95af514"
+        },
+        "date": 1733931760046,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "attrs-tablex",
+            "value": 480546,
+            "range": "± 28602",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "attrs-cetz-manual",
+            "value": 90256,
+            "range": "± 3994",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "attrs-undergraduate-math",
+            "value": 134651,
+            "range": "± 4281",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "attrs-packages/codly",
+            "value": 252840,
+            "range": "± 1537",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "attrs-packages/fletcher-diagram",
+            "value": 53784,
+            "range": "± 303",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "attrs-packages/fletcher-draw",
+            "value": 157643,
+            "range": "± 886",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "attrs-packages/touying/core",
+            "value": 311157,
+            "range": "± 1600",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "attrs-packages/touying/utils",
+            "value": 166642,
+            "range": "± 2299",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "pretty-tablex",
+            "value": 3632532,
+            "range": "± 18254",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "pretty-cetz-manual",
+            "value": 858084,
+            "range": "± 3421",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "pretty-undergraduate-math",
+            "value": 891587,
+            "range": "± 4028",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "pretty-packages/codly",
+            "value": 1899107,
+            "range": "± 9123",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "pretty-packages/fletcher-diagram",
+            "value": 545493,
+            "range": "± 3626",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "pretty-packages/fletcher-draw",
+            "value": 1318847,
+            "range": "± 44725",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "pretty-packages/touying/core",
+            "value": 2286094,
+            "range": "± 11611",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "pretty-packages/touying/utils",
+            "value": 1283650,
+            "range": "± 30206",
             "unit": "ns/iter"
           }
         ]
