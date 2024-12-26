@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1735143782736,
+  "lastUpdate": 1735183509710,
   "repoUrl": "https://github.com/Enter-tainer/typstyle",
   "entries": {
     "Rust Benchmark": [
@@ -5039,6 +5039,126 @@ window.BENCHMARK_DATA = {
             "name": "pretty-touying-utils",
             "value": 1281664,
             "range": "± 20310",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "56949546+ramdomPTM@users.noreply.github.com",
+            "name": "Gerald Chen",
+            "username": "ramdomPTM"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "72c6b7925b7558548160e45ce816a2493997cc87",
+          "message": "fix: do not add additional end-of-file newline (#206)\n\n* fix: do not add additional end-of-file newline\r\n\r\n* update insta test snapshots",
+          "timestamp": "2024-12-26T11:21:24+08:00",
+          "tree_id": "aa261769e0e07b0dc5fef23577b8c2c98704b45c",
+          "url": "https://github.com/Enter-tainer/typstyle/commit/72c6b7925b7558548160e45ce816a2493997cc87"
+        },
+        "date": 1735183509444,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "attrs-undergraduate-math",
+            "value": 122046,
+            "range": "± 5173",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "attrs-cetz-manual",
+            "value": 90251,
+            "range": "± 928",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "attrs-codly",
+            "value": 248461,
+            "range": "± 6427",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "attrs-fletcher-diagram",
+            "value": 52608,
+            "range": "± 507",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "attrs-fletcher-draw",
+            "value": 153997,
+            "range": "± 1753",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "attrs-tablex",
+            "value": 476268,
+            "range": "± 2541",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "attrs-touying-core",
+            "value": 302263,
+            "range": "± 3312",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "attrs-touying-utils",
+            "value": 163377,
+            "range": "± 1997",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "pretty-undergraduate-math",
+            "value": 887043,
+            "range": "± 8067",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "pretty-cetz-manual",
+            "value": 848667,
+            "range": "± 6809",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "pretty-codly",
+            "value": 1935684,
+            "range": "± 28659",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "pretty-fletcher-diagram",
+            "value": 544363,
+            "range": "± 6383",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "pretty-fletcher-draw",
+            "value": 1311251,
+            "range": "± 73692",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "pretty-tablex",
+            "value": 3636772,
+            "range": "± 23901",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "pretty-touying-core",
+            "value": 2306896,
+            "range": "± 65739",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "pretty-touying-utils",
+            "value": 1290594,
+            "range": "± 33701",
             "unit": "ns/iter"
           }
         ]
