@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1735183509710,
+  "lastUpdate": 1735234687916,
   "repoUrl": "https://github.com/Enter-tainer/typstyle",
   "entries": {
     "Rust Benchmark": [
@@ -5159,6 +5159,126 @@ window.BENCHMARK_DATA = {
             "name": "pretty-touying-utils",
             "value": 1290594,
             "range": "± 33701",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "50077758+QuadnucYard@users.noreply.github.com",
+            "name": "QuadnucYard",
+            "username": "QuadnucYard"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "8859e7a9f1c885fe8a23b29dfb55c7241bd07583",
+          "message": "fix: do not add linebreak at the start of the document when there is no parbreak (#208)\n\n* test: add a dummy line in snaps to avoid unexpected trimming by insta, and add more tests\r\n\r\n* fix: do not add linebreak at the start of the document when there is no parbreak",
+          "timestamp": "2024-12-27T01:34:17+08:00",
+          "tree_id": "fc4209ea3b101cba0fea8a2551b5da396a662441",
+          "url": "https://github.com/Enter-tainer/typstyle/commit/8859e7a9f1c885fe8a23b29dfb55c7241bd07583"
+        },
+        "date": 1735234687420,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "attrs-undergraduate-math",
+            "value": 123118,
+            "range": "± 1448",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "attrs-cetz-manual",
+            "value": 89550,
+            "range": "± 4164",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "attrs-codly",
+            "value": 253599,
+            "range": "± 3750",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "attrs-fletcher-diagram",
+            "value": 55717,
+            "range": "± 1756",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "attrs-fletcher-draw",
+            "value": 157257,
+            "range": "± 2155",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "attrs-tablex",
+            "value": 478947,
+            "range": "± 2708",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "attrs-touying-core",
+            "value": 310148,
+            "range": "± 2201",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "attrs-touying-utils",
+            "value": 167008,
+            "range": "± 1742",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "pretty-undergraduate-math",
+            "value": 895435,
+            "range": "± 8135",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "pretty-cetz-manual",
+            "value": 842347,
+            "range": "± 4969",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "pretty-codly",
+            "value": 1923966,
+            "range": "± 24305",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "pretty-fletcher-diagram",
+            "value": 541528,
+            "range": "± 20012",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "pretty-fletcher-draw",
+            "value": 1317228,
+            "range": "± 14847",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "pretty-tablex",
+            "value": 3653232,
+            "range": "± 27512",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "pretty-touying-core",
+            "value": 2319503,
+            "range": "± 13520",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "pretty-touying-utils",
+            "value": 1290673,
+            "range": "± 13482",
             "unit": "ns/iter"
           }
         ]
