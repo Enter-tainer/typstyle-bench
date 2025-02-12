@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1739267528757,
+  "lastUpdate": 1739324174590,
   "repoUrl": "https://github.com/Enter-tainer/typstyle",
   "entries": {
     "Rust Benchmark": [
@@ -5759,6 +5759,126 @@ window.BENCHMARK_DATA = {
             "name": "pretty-touying-utils",
             "value": 1299821,
             "range": "± 9992",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "38045210+AgentElement@users.noreply.github.com",
+            "name": "AgentElement",
+            "username": "AgentElement"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "2cf35b7c2ed41ccbfb7760ff4049481db67978ab",
+          "message": "feat: add `--tab-width`, which sets number of spaces for levels of indentation in the output (#220)\n\n* feat: --tab-width flag to set spaces per tab\n\n* test: integration test for the --tab-width flag\n\n* fix(test): bad 's' in output",
+          "timestamp": "2025-02-12T09:32:29+08:00",
+          "tree_id": "8b60a8a44d2634e010273398fad6b3c922fcfb8e",
+          "url": "https://github.com/Enter-tainer/typstyle/commit/2cf35b7c2ed41ccbfb7760ff4049481db67978ab"
+        },
+        "date": 1739324174409,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "attrs-undergraduate-math",
+            "value": 124147,
+            "range": "± 3402",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "attrs-cetz-manual",
+            "value": 89985,
+            "range": "± 1115",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "attrs-codly",
+            "value": 251453,
+            "range": "± 4259",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "attrs-fletcher-diagram",
+            "value": 55331,
+            "range": "± 695",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "attrs-fletcher-draw",
+            "value": 156546,
+            "range": "± 1965",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "attrs-tablex",
+            "value": 477584,
+            "range": "± 2852",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "attrs-touying-core",
+            "value": 305466,
+            "range": "± 3814",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "attrs-touying-utils",
+            "value": 164486,
+            "range": "± 2006",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "pretty-undergraduate-math",
+            "value": 890077,
+            "range": "± 23290",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "pretty-cetz-manual",
+            "value": 845020,
+            "range": "± 7144",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "pretty-codly",
+            "value": 1941231,
+            "range": "± 20968",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "pretty-fletcher-diagram",
+            "value": 546793,
+            "range": "± 8172",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "pretty-fletcher-draw",
+            "value": 1326644,
+            "range": "± 18732",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "pretty-tablex",
+            "value": 3695345,
+            "range": "± 32424",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "pretty-touying-core",
+            "value": 2323178,
+            "range": "± 38646",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "pretty-touying-utils",
+            "value": 1302357,
+            "range": "± 15068",
             "unit": "ns/iter"
           }
         ]
