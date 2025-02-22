@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1739978263705,
+  "lastUpdate": 1740199234979,
   "repoUrl": "https://github.com/Enter-tainer/typstyle",
   "entries": {
     "Rust Benchmark": [
@@ -6599,6 +6599,126 @@ window.BENCHMARK_DATA = {
             "name": "pretty-touying-utils",
             "value": 1232908,
             "range": "± 15035",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "mgt@oi-wiki.org",
+            "name": "Wenzhuo Liu",
+            "username": "Enter-tainer"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "43ff4e3cbf199964017942014e9a44404cf24a36",
+          "message": "chore: bump to typst v0.13.0 (#232)\n\n* chore: bump to typst v0.13.0-rc1\n\n* build: update deps\n\n* test: add shebang test\n\n* chore: remove patch for typst crates\n\n* chore: bump deps\n\n* chore: bump to v0.13.0\n\n---------\n\nCo-authored-by: QuadnucYard <quadnucyard@gmail.com>",
+          "timestamp": "2025-02-22T12:36:02+08:00",
+          "tree_id": "93811a6eac0194de313740596f143f371cec4e9a",
+          "url": "https://github.com/Enter-tainer/typstyle/commit/43ff4e3cbf199964017942014e9a44404cf24a36"
+        },
+        "date": 1740199234816,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "attrs-undergraduate-math",
+            "value": 118975,
+            "range": "± 1800",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "attrs-cetz-manual",
+            "value": 85541,
+            "range": "± 611",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "attrs-codly",
+            "value": 238880,
+            "range": "± 4738",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "attrs-fletcher-diagram",
+            "value": 51719,
+            "range": "± 3702",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "attrs-fletcher-draw",
+            "value": 150576,
+            "range": "± 1806",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "attrs-tablex",
+            "value": 457631,
+            "range": "± 3379",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "attrs-touying-core",
+            "value": 291388,
+            "range": "± 2430",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "attrs-touying-utils",
+            "value": 159326,
+            "range": "± 3715",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "pretty-undergraduate-math",
+            "value": 868252,
+            "range": "± 7746",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "pretty-cetz-manual",
+            "value": 814752,
+            "range": "± 12565",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "pretty-codly",
+            "value": 1883462,
+            "range": "± 18173",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "pretty-fletcher-diagram",
+            "value": 541528,
+            "range": "± 7113",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "pretty-fletcher-draw",
+            "value": 1296606,
+            "range": "± 12115",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "pretty-tablex",
+            "value": 3556276,
+            "range": "± 16180",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "pretty-touying-core",
+            "value": 2267028,
+            "range": "± 24478",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "pretty-touying-utils",
+            "value": 1261214,
+            "range": "± 15356",
             "unit": "ns/iter"
           }
         ]
