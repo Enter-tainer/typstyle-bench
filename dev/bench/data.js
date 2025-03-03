@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1740843806882,
+  "lastUpdate": 1740975068746,
   "repoUrl": "https://github.com/Enter-tainer/typstyle",
   "entries": {
     "Rust Benchmark": [
@@ -7079,6 +7079,126 @@ window.BENCHMARK_DATA = {
             "name": "pretty-touying-utils",
             "value": 1264507,
             "range": "± 12695",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "quadnucyard@gmail.com",
+            "name": "QuadnucYard",
+            "username": "QuadnucYard"
+          },
+          "committer": {
+            "email": "2380433991@qq.com",
+            "name": "QuadnucYard",
+            "username": "QuadnucYard"
+          },
+          "distinct": true,
+          "id": "bc2968b6c4565d995eaf22cd8caf6121cf13f5a8",
+          "message": "build: replace reflexo with tinymist-world 0.13.2",
+          "timestamp": "2025-03-03T12:05:23+08:00",
+          "tree_id": "4d3a2bfedb5d73ce10e0bd0261cee7825d9dd598",
+          "url": "https://github.com/Enter-tainer/typstyle/commit/bc2968b6c4565d995eaf22cd8caf6121cf13f5a8"
+        },
+        "date": 1740975068276,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "attrs-undergraduate-math",
+            "value": 119186,
+            "range": "± 4442",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "attrs-cetz-manual",
+            "value": 86357,
+            "range": "± 1766",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "attrs-codly",
+            "value": 241219,
+            "range": "± 9665",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "attrs-fletcher-diagram",
+            "value": 50890,
+            "range": "± 747",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "attrs-fletcher-draw",
+            "value": 152366,
+            "range": "± 2475",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "attrs-tablex",
+            "value": 461936,
+            "range": "± 5978",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "attrs-touying-core",
+            "value": 295041,
+            "range": "± 5537",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "attrs-touying-utils",
+            "value": 159185,
+            "range": "± 2920",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "pretty-undergraduate-math",
+            "value": 875820,
+            "range": "± 5939",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "pretty-cetz-manual",
+            "value": 817121,
+            "range": "± 4607",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "pretty-codly",
+            "value": 1895408,
+            "range": "± 13466",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "pretty-fletcher-diagram",
+            "value": 545595,
+            "range": "± 6705",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "pretty-fletcher-draw",
+            "value": 1305116,
+            "range": "± 10723",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "pretty-tablex",
+            "value": 3568154,
+            "range": "± 25372",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "pretty-touying-core",
+            "value": 2270324,
+            "range": "± 14594",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "pretty-touying-utils",
+            "value": 1259958,
+            "range": "± 54470",
             "unit": "ns/iter"
           }
         ]
